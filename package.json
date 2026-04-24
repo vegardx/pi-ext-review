@@ -1,6 +1,6 @@
 {
-	"name": "pi-ext-review",
-	"version": "0.1.0",
+	"name": "@vegardx/pi-ext-review",
+	"version": "0.0.0-development",
 	"description": "pi.dev extension: multi-agent code review — seven specialist reviewers in parallel with dedupe and interactive walk-through",
 	"keywords": [
 		"pi-package",
@@ -12,6 +12,9 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/vegardx/pi-ext-review.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"type": "module",
 	"engines": {
@@ -28,7 +31,12 @@
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.13",
 		"@mariozechner/pi-coding-agent": "^0.68.1",
+		"@semantic-release/commit-analyzer": "^13.0.1",
+		"@semantic-release/github": "^11.0.3",
+		"@semantic-release/npm": "^13.1.5",
+		"@semantic-release/release-notes-generator": "^14.0.3",
 		"@sinclair/typebox": "^0.34.49",
+		"semantic-release": "^25.0.1",
 		"typescript": "^6.0.3",
 		"vitest": "^3.2.4"
 	},

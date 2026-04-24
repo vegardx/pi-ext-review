@@ -1,5 +1,10 @@
 # pi-ext-review
 
+[![CI](https://img.shields.io/github/actions/workflow/status/vegardx/pi-ext-review/ci.yml?branch=main&label=CI)](https://github.com/vegardx/pi-ext-review/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/vegardx/pi-ext-review)](https://github.com/vegardx/pi-ext-review/releases/latest)
+[![License: MIT](https://img.shields.io/github/license/vegardx/pi-ext-review)](LICENSE)
+[![pi.dev extension](https://img.shields.io/badge/pi.dev-extension-blue)](https://pi.dev)
+
 Multi-agent review: `/review` fans out seven specialist reviewers in
 parallel, dedupes their findings, walks you through every one with
 Accept / Skip / Explain, and hands the accepted fixes back to the main
