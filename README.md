@@ -5,10 +5,8 @@ parallel, dedupes their findings, walks you through every one with
 Accept / Skip / Explain, and hands the accepted fixes back to the main
 agent as a single batch.
 
-Ported from the `check` plugin in
-[awesome-agents](https://dnb.ghe.com/github/awesome-agents), with
-JSON-structured reviewer output for robustness and the main agent's
-current model used for every reviewer (no separate reviewer model).
+Uses JSON-structured reviewer output for robustness and the main agent's
+current model for every reviewer (no separate reviewer model).
 
 ## Install
 
